@@ -1,0 +1,131 @@
+<table width="100%" cellspacing="0" cellpadding="2" border="0" align="center">
+  <tr> 
+    <td align="left" valign="bottom"><span class="gensmall">
+      <!-- BEGIN switch_user_logged_in -->
+      {LAST_VISIT_DATE}<br />
+      <!-- END switch_user_logged_in -->
+      {CURRENT_TIME}</span></td>
+    <td align="right" valign="bottom" class="gensmall">
+      <!-- BEGIN switch_user_logged_in -->
+      <a href="{U_SEARCH_NEW}" class="gensmall">{L_SEARCH_NEW}</a><br />
+      <!-- END switch_user_logged_in -->
+      <a href="{U_SEARCH_UNANSWERED}" class="gensmall">{L_SEARCH_UNANSWERED}</a></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellpadding="2" cellspacing="1" class="forumline">
+ <tr> 
+ 	<th height="28" width="100%" align="center">{NEWS_TITLE}</th>
+ </tr>
+ <tr> 
+ 	<td height="28" align="center" class="row1"><{NEWS_STYLE} behavior="{SCROLL_BEHAVIOR}" direction="{SCROLL_ACTION}"  width="{SCROLL_SIZE}" scrollamount="{SCROLL_SPEED}" ><font size="{NEWS_SIZE}" color="{NEWS_COLOR}"><{NEWS_BOLD}><{NEWS_ITAL}><{NEWS_UNDER}>{NEWS_BLOCK}</{NEWS_STYLE}></{NEWS_BOLD}></{NEWS_ITAL}></{NEWS_UNDER}></font></td>
+ </tr>
+</table>
+
+<table width="100%" cellpadding="2" cellspacing="1" border="0" class="forumline">
+  <tr> 
+    <th colspan="2" class="thCornerL" height="25" nowrap="nowrap">&nbsp;{L_FORUM}&nbsp;</th>
+    <th width="50" class="thTop" nowrap="nowrap">&nbsp;{L_TOPICS}&nbsp;</th>
+    <th width="50" class="thTop" nowrap="nowrap">&nbsp;{L_POSTS}&nbsp;</th>
+    <th class="thCornerR" nowrap="nowrap">&nbsp;{L_LASTPOST}&nbsp;</th>
+  </tr>
+  <!-- BEGIN catrow -->
+  <tr> 
+    <td class="catLeft" colspan="5" height="28"><span class="cattitle"><a href="{catrow.U_VIEWCAT}" class="cattitle">{catrow.CAT_DESC}</a></span></td>
+  </tr>
+  <!-- BEGIN forumrow -->
+  <tr> 
+    <td class="row2" align="center" valign="middle" height="50"><img src="{catrow.forumrow.FORUM_FOLDER_IMG}" width="46" height="25" alt="{catrow.forumrow.L_FORUM_FOLDER_ALT}" title="{catrow.forumrow.L_FORUM_FOLDER_ALT}" /></td>
+    <td class="row1" width="100%" height="50"><span class="forumlink"> <a href="{catrow.forumrow.U_VIEWFORUM}" class="forumlink">{catrow.forumrow.FORUM_NAME}</a><br /></span> <span class="genmed">{catrow.forumrow.FORUM_DESC}<br /></span><span class="gensmall">{catrow.forumrow.L_MODERATOR} {catrow.forumrow.MODERATORS}</span></td>
+    <td class="row2" align="center" valign="middle" height="50"><span class="gensmall">{catrow.forumrow.TOPICS}</span></td>
+    <td class="row2" align="center" valign="middle" height="50"><span class="gensmall">{catrow.forumrow.POSTS}</span></td>
+    <td class="row2" align="center" valign="middle" height="50" nowrap="nowrap"> <span class="gensmall">{catrow.forumrow.LAST_POST}</span></td>
+  </tr>
+  <!-- END forumrow -->
+  <!-- END catrow -->
+</table>
+
+<table width="100%" cellspacing="0" border="0" align="center" cellpadding="2">
+  <tr> 
+    <td align="left"><span class="gensmall"><a href="{U_MARK_READ}" class="gensmall">{L_MARK_FORUMS_READ}</a></span></td>
+    <td align="right"><span class="gensmall">{S_TIMEZONE}</span></td>
+  </tr>
+</table>
+
+<table width="100%" cellpadding="3" cellspacing="1" border="0" class="forumline">
+  <tr> 
+    <td class="catHead" colspan="2" height="28"><span class="cattitle"><a href="{U_VIEWONLINE}" class="cattitle">{L_WHO_IS_ONLINE}</a></span></td>
+  </tr>
+  <tr> 
+    <td class="row2" align="center" valign="middle" rowspan="2"><img src="templates/BMan1Blue/images/whosonline.gif" alt="{L_WHO_IS_ONLINE}" /></td>
+    <td class="row1" align="left" width="100%"><span class="gensmall">{TOTAL_POSTS}<br />{TOTAL_USERS}<br />{NEWEST_USER}</span></td>
+  </tr>
+  <tr> 
+    <td class="row1" align="left"><span class="gensmall">{TOTAL_USERS_ONLINE}<br />{RECORD_USERS}<br />(<b>{L_WHOSONLINE_ADMIN}</b>)&nbsp;(<b>{L_WHOSONLINE_MOD}</b>)<br />{LOGGED_IN_USER_LIST}</span></td>
+  </tr>
+  <!-- BEGIN switch_user_logged_out -->
+  <form method="post" action="{S_LOGIN_ACTION}">
+    <tr> 
+      <td class="catHead" colspan="2" align="center" height="28"><a name="login"></a><span class="cattitle">{L_LOGIN_LOGOUT}</span></td>
+    </tr>
+    <tr> 
+      <td class="row1" colspan="2" align="center" valign="middle" height="28"><span class="gensmall">{L_USERNAME}: <input class="post" type="text" name="username" size="10" />&nbsp;&nbsp;&nbsp;{L_PASSWORD}: <input class="post" type="password" name="password" size="10" />&nbsp;&nbsp; &nbsp;&nbsp;{L_AUTO_LOGIN} <input class="text" type="checkbox" name="autologin" />&nbsp;&nbsp;&nbsp;<input type="submit" class="mainoption" name="login" value="{L_LOGIN}" /></span></td>
+    </tr>
+  </form>
+<!-- END switch_user_logged_out -->
+</table>
+
+<br clear="all" />
+
+<table cellspacing="3" border="0" align="center" cellpadding="0"> 
+<tr> 
+<td width="20" align="center"><img src="templates/BMan1Blue/images/folder_new_big.gif" alt="{L_NEW_POSTS}"/></td> 
+<td><span class="gensmall">{L_NEW_POSTS}</span></td> 
+<td>&nbsp;&nbsp;</td> 
+<td width="20" align="center"><img src="templates/BMan1Blue/images/folder_big.gif" alt="{L_NO_NEW_POSTS}" /></td> 
+<td><span class="gensmall">{L_NO_NEW_POSTS}</span></td> 
+<td>&nbsp;&nbsp;</td> 
+<td width="20" align="center"><img src="templates/BMan1Blue/images/folder_locked_big.gif" alt="{L_FORUM_LOCKED}" /></td> 
+<td><span class="gensmall">{L_FORUM_LOCKED}</span></td> 
+</tr> 
+</table>
+
+<!-- Paypal Donate Button(s)-->
+<br>
+<table cellspacing="1" border="0" align="center" cellpadding="0"> 
+	<tr>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_xclick">
+			<input type="hidden" name="business" value="jeff@johnsonweb.us">
+			<input type="hidden" name="item_name" value="SCU Capstone">
+			<input type="hidden" name="item_number" value="Spring 2004">
+			<input type="hidden" name="amount" value="10.00">
+			<input type="hidden" name="no_shipping" value="1">
+			<input type="hidden" name="return" value="http://www.scucapstone.com/phpbb/">
+			<input type="hidden" name="cancel_return" value="http://www.scucapstone.com/phpbb/">
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="hidden" name="tax" value="0">
+			<input type="hidden" name="lc" value="US">
+			<input type="submit" value="DONATE to Jeff Johnson" alt="Make payments with PayPal - it's fast, free and secure!">
+			<!--  <input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">  -->
+		</form>
+	</tr>
+	
+	<tr>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_xclick">
+			<input type="hidden" name="business" value="chriswikoff1@earthlink.net">
+			<input type="hidden" name="item_name" value="Chris Wikoff">
+			<input type="hidden" name="no_shipping" value="1">
+			<input type="hidden" name="return" value="http://www.scucapstone.com/phpbb/">
+			<input type="hidden" name="cancel_return" value="http://www.scucapstone.com/phpbb/">
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="hidden" name="tax" value="0">
+			<input type="hidden" name="lc" value="US">
+			<input type="submit" value="DONATE to Chris Wikoff" alt="Make payments with PayPal - it's fast, free and secure!">
+		</form>
+	</tr>
+	
+</table> 
+<!-- End Paypal Donate Button -->
+

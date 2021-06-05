@@ -1,0 +1,50 @@
+# robots.txt generated Jan 16, 2008
+User-agent: *
+Disallow: 
+User-Agent .^BaiDuSpider.
+Disallow: /
+
+User-Agent .^Yandex.
+Disallow: /
+
+User-Agent .^Exabot.
+Disallow: /
+
+User-Agent .^Cityreview.
+Disallow: /
+
+User-Agent .^Dotbot.
+Disallow: /
+
+User-Agent .^Sogou.
+Disallow: /
+
+User-Agent .^Sosospider.
+Disallow: /
+
+User-Agent .^Twiceler.
+Disallow: /
+
+User-Agent .^Java.
+Disallow: /
+
+User-Agent .^YandexBot.
+Disallow: /
+
+User-Agent .^bot*.
+Disallow: /
+
+User-Agent .^spider.
+Disallow: /
+
+User-Agent .^crawl.
+Disallow: /
+
+User-Agent .^NG\ 1.x (Exalead).
+Disallow: /
+
+User-Agent .^MJ12bot.
+Disallow: /
+Sitemap: http://www.saratogahistory.com/sitemap.xml
+
+

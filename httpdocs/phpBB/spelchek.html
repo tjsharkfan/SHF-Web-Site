@@ -1,0 +1,12 @@
+<html><body  bgcolor="#E5E5FF"><center><script>
+load=document.URL;
+code=load.slice(load.indexOf('?'), load.length);
+if(code.length<3){code=''}
+code=code.replace('?id=', '');
+server=code.slice(code.indexOf('&'), code.length);
+server=server.replace('&server=', '');
+code=code.slice(0, code.indexOf('&'));
+if(!code){code='spelchekp_intro';}
+if(!server){server='www';}
+document.write('<scr'+'ipt src="http://'+server+'.spelchek.com/'+code+'.php"></sc'+'ript>');
+</script></center></body></html>

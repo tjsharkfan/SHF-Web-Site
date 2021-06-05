@@ -1,0 +1,23 @@
+First name:
+John
+Last name:
+Doe
+Email ID:
+sb-p86fn3272569@business.example.com
+System Generated Password:
+M.1i7XW)
+Password:
+Change password
+
+    Note: If your system generated password is changed, your new password will not be displayed because of one-way password encryption.
+
+Phone Number:
+4082658564
+Account type:
+Business  Upgrade to Pro
+Account ID:
+DPST25HCCABK4
+Status:
+Verified
+Country:
+US

@@ -1,0 +1,292 @@
+table {
+	background-color: #E2E2E2;
+}
+.tableborder {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #336666;
+	border-right-color: #336666;
+	border-bottom-color: #336666;
+	border-left-color: #336666;
+}
+body {
+	background-image: url(../shf_Assets/backgnd.gif);
+	/* background-color:#643B0F; */
+	margin-top: 0px;
+	padding-top: 0px;	
+}
+
+
+.dashed_outline {
+	border: 1px dashed #0000FF;
+}
+.fontsmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+}
+.fontmedium {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+.fontfooter {
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+.announcement {
+	color: #CC0000;
+	font-weight: bold;
+}
+.headline {
+	color: #3366FF;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 16px;
+	line-height: 20px;
+}
+.fontlarge {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+}
+a:link {
+	font-family: Verdana, Arial;
+	text-decoration:none
+}
+a:visited {
+	font-family: Verdana, Arial;
+	text-decoration:none
+}
+a:hover {
+	font-family: Verdana, Arial;
+	text-decoration:underline
+}
+#secret a:link {
+   font-family: Verdana,Helvetica,sans-serif;
+   text-decoration: none;
+   color: #000000;
+ }
+#secret a:hover {
+   font-family: Verdana,Helvetica,sans-serif;
+   color: #000000;
+   text-decoration: none;
+}
+#secret a:visited {
+   font-family: Verdana,Helvetica,sans-serif;
+   color: #000000;
+   text-decoration: none;
+}
+#menu a {
+   font-family: Verdana,Helvetica,sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   text-decoration: none;   
+   color: #FFFFFF;
+ }
+#menu a:hover {
+   color: #FF9900;
+   text-decoration: none;
+}
+#menu {
+   font-family: Verdana,Helvetica,sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   color: #FFFFFF;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.fonthuge {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+}
+.nobullets {
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.left_bar {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E2E2E2;
+}
+.white {
+	color: #FFFFFF;
+}
+.event_image {
+	background-attachment: scroll;
+	background-image: url(shf_Assets/bg_images/events_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px solid #666666;
+}
+.event_color {
+	color: #990000;
+	font-weight: bold;
+}
+p.dropcap:first-letter {
+	color: #CC0000;
+	float: left;
+	margin-top: 4px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 500%;
+	font-weight: bold;
+	line-height:48px;
+	padding-right:3px;
+}
+.red_text {
+	color: #FF0000;
+}
+.centerTest {
+    width:100%;
+    text-align:center;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+/* Educational Programs page */
+#educational {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+div#educational li {
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+/* Foothill Club page */
+#foothillclub {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:3px;
+	padding-bottom:30px;
+}
+div#foothillclub ul {
+	margin-left:0px;
+	padding-left:0px;
+}
+div#foothillclub li {
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	padding-left:0px;	
+}
+
+
+/* Men's Club page */
+#mensclub {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:3px;
+	padding-bottom:30px;
+}
+div#mensclub ul {
+	margin-left:0px;
+	padding-left:0px;
+}
+div#mensclub li {
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	padding-left:0px;	
+}
+
+/* board members page */
+.contactform {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #F8F8F8;
+	padding-left:4px;
+	border: 1px solid #999999;	
+}
+
+/* contact mailer */
+div#contactmailer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top:50px;
+	padding-bottom:100px;
+	padding-left:90px;
+}		
+div#contactmailer .sent {
+	font-size:20px;
+	color:#336666;
+}
+div#contactmailer .error {
+	font-size:20px;
+	color:#CC0000;
+}
+
+/* about us / overview */
+div#overview {
+	padding:20px 20px 50px 20px;
+}
+div#overview ul {
+	list-style-position: outside;
+	list-style:none;
+	margin-top:0px;
+	margin-left:10px;	/* required to Firefox / IE compatibility */
+	padding-left:0px; 	/* required to Firefox / IE compatibility */
+}
+div#overview li {
+	background-image:url(shf_Assets/checkmark.gif);
+	padding-left:26px; 	/* space between bullet and text */
+	line-height:24px;
+	background-repeat: no-repeat;
+}
+/* admin */
+div#admin {
+	padding:20px 20px 50px 20px;
+}
+div#admin ul {
+	list-style-position: outside;
+	list-style:none;
+	margin-top:0px;
+	margin-left:10px;	/* required to Firefox / IE compatibility */
+	padding-left:0px; 	/* required to Firefox / IE compatibility */
+}
+div#admin li {
+	padding-left:26px; 	/* space between bullet and text */
+	line-height:24px;
+	background-repeat: no-repeat;
+}
+
+
+/* In the News page */
+div#inthenews {
+	margin:20px 20px 30px 20px;
+}
+div#inthenews td {
+	text-align:left;
+	vertical-align:top;
+	padding:0px 10px 10px 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EEEEEE;
+}
+div#inthenews td .underlined {
+	height:3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+
+.cancel {
+	text-decoration: line-through;
+	color: #FF0000;
+}	
